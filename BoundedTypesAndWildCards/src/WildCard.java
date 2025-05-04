@@ -2,8 +2,8 @@
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Objects;
-public class Wild {
+
+public class WildCard {
     public static void main(String[] args) {
         List<Integer> listOfIntegers = List.of(1,2,3);
         List<String> listOfStrings = new ArrayList<>();

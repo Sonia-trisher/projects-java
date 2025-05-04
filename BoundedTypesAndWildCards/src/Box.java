@@ -1,4 +1,11 @@
-package PACKAGE_NAME;
+// bounded
+public class Box <T extends Number>{
+    private T value;
 
-public class Box {
+    public Box(T value) {
+        this.value = value;
+    }
+    public T getValue() {
+        return value;
+    }
 }
