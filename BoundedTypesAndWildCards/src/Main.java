@@ -1,6 +1,6 @@
 
     import java.util.ArrayList;
-import java.util.List;
+    import java.util.List;
 
     public class Main {
         public static void main(String[] args) {
@@ -8,7 +8,7 @@ import java.util.List;
             Box<Double> doubleBox = new Box<>(2.06);
             System.out.println(integerBox.getValue());
             System.out.println(doubleBox.getValue());
-//super
+        //super from lower to upper like from integer,double to number
 
             List<Integer> integerList = new ArrayList<>();
             List<Number> numberList = new ArrayList<>();

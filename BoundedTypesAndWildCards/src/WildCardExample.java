@@ -22,6 +22,7 @@ public class WildCardExample {
     }
 
     // Method to print eat behavior using ? extends Animal
+//    extent it start from upper to lower but cz all are (overide that why is on dog only)
     public static void printAnimals(List<? extends Animal> animals) {
         for (Animal animal : animals) {
             animal.eat();
