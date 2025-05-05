@@ -8,5 +8,6 @@ public class AfterLambda {
         peopleGreeter.greet("keza");
         aiGreeter.greet("chatGPT");
         greeter.greet("sonia");
+
     }
 }

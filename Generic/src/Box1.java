@@ -1,5 +1,5 @@
-public class work {
-    public class Box1<T>{
+public class Box1<T> {
+
         T Object;
 
         public Box1(T object) {
@@ -9,5 +9,5 @@ public class work {
         public T getObject() {
             return Object;
         }
-    }
+
 }

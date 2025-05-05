@@ -1,4 +1,3 @@
-package PACKAGE_NAME;
-
-public class Sum {
+interface Sum {
+     int sum(int a, int b);
 }
