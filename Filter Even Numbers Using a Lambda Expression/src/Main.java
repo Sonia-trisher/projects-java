@@ -3,10 +3,12 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        List<Integer> input = List.of(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
+        List<Integer> input = List.of(1, 2, 3, 4, 5, 6, 7, 8, 9, 10,20,30,12);
         System.out.println("Original List: " + input);
         List<Integer> even = EvenNumberFilter.filterEvenNumbers(input);
         System.out.println("Even numbers List: " + even);
+//        List<Integer> maxNumber = EvenNumberFilter.filterMaxNumbers(input);
+//        System.out.println("Filtered List: " + maxNumber);
 
         List<Integer> input2 = List.of();
         System.out.println("original List: " + input2);
