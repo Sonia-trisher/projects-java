@@ -4,11 +4,13 @@ public class Main {
         Integer[] intArray1 = {1, 2, 3};
         Integer[] intArray2 = {4, 5, 6};
 
-        Integer[] mergedInts = GenericArrayUtility.mergeArrays(intArray1, intArray2);
+        Integer[]mergedInts =GenericArrayUtility.mergeArrays(intArray1,intArray2);
         System.out.print("Merged Integer Array: ");
-        for (Integer num : mergedInts) {
+        for(Integer num : mergedInts){
             System.out.print(num + " ");
         }
+
+
         System.out.println();
 
         String[] strArray1 = {"Hello", "World"};
