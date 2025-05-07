@@ -31,5 +31,17 @@ public class MethodReference {
 //        lambda expression
 //        team.sort((t1,t2) -> t1. compareTo(t2));
         System.out.println("Sorted team: "+team);
+
+        List<String> theBestStudents = Arrays.asList("Sonia", "Channelle", "Ingabire", "Queen", "Muhimpundu", "Anne", "Florence", "Mutuyimana", "Gaju");
+//
+        List<Person> theBest = theBestStudents.stream()
+                .map(st -> new Person(st))
+                .toList();
+//
+//        List<Person> theBest = theBestStudents.stream()
+//                .map(Person::new)
+//                .toList();
+//        // Syntax: ClassName::new
+        System.out.println(theBest);
     }
 }

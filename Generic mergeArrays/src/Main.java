@@ -5,6 +5,13 @@ public class Main {
         Integer[] intArray2 = {4, 5, 6};
 
         Integer[]mergedInts =GenericArrayUtility.mergeArrays(intArray1,intArray2);
+
+//      This is nomal way and we use int instead of Integer bcz that capital Integer used for generic(T)
+//        int[] intArray1 = {1, 2, 3};
+//        int[] intArray2 = {4, 5, 6};
+//
+//        int[]mergedInts =GenericArrayUtility.mergeArrays(intArray1,intArray2);
+
         System.out.print("Merged Integer Array: ");
         for(Integer num : mergedInts){
             System.out.print(num + " ");
@@ -12,6 +19,11 @@ public class Main {
 
 
         System.out.println();
+
+//        String[] strArray1 = {"Hello", "World"};
+//        String[] strArray2 = {"Java", "Generics"};
+//
+//        String[] mergedStrings = GenericArrayUtility.mergeArrays(strArray1, strArray2);
 
         String[] strArray1 = {"Hello", "World"};
         String[] strArray2 = {"Java", "Generics"};
