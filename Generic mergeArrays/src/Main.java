@@ -20,10 +20,6 @@ public class Main {
 
         System.out.println();
 
-//        String[] strArray1 = {"Hello", "World"};
-//        String[] strArray2 = {"Java", "Generics"};
-//
-//        String[] mergedStrings = GenericArrayUtility.mergeArrays(strArray1, strArray2);
 
         String[] strArray1 = {"Hello", "World"};
         String[] strArray2 = {"Java", "Generics"};
