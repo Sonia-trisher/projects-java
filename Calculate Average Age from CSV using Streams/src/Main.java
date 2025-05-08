@@ -2,7 +2,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 
 public class Main {
-    public static void main(String[] args) throws IllegalAccessError {
+    public static void main(String[] args) throws IllegalAccessError, IOException {
         String filePath ="people.cvs";
         String textContent = """
                 Name,Age
@@ -20,5 +20,8 @@ public class Main {
             System.out.println("could not write to file");
 
         }
-    }
+
+//   CSVStreamProcessor.calculateAverageAge("C:\\Users\\HP\\Documents\\java-projects\\Calculate Average Age from CSV using Streams\\people.cvs");
+        CSVStreamProcessor.calculateAverageAge(filePath);
+}
 }
