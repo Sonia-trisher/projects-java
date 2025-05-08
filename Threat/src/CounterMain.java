@@ -9,6 +9,7 @@ public class CounterMain {
         Thread t2 = new Thread(() -> {
             for (int i = 0; i < 100_000; i++) {
                 Counter.increment();
+
             }
         });
 
@@ -18,7 +19,9 @@ public class CounterMain {
         t2.join();
 
         System.out.println(Counter.getCount());
+        t2.join();
 
+        System.out.println("helo word");
         // 200,000 - This should be the output
         //100, 000
 
