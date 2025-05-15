@@ -27,7 +27,8 @@ public class CalculatorTest {
     void testAdd1() {
         assertEquals(13,Calculator.add(9,4));
     }
-    @Test void testMethod1(){
+    @Test
+    void testMethod1(){
         System.out.println("my first test method");
     }
     @Test void testMethod2(){
