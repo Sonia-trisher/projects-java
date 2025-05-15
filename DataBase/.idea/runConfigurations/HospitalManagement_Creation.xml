@@ -1,7 +1,0 @@
-<component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="HospitalManagement_Creation" type="DatabaseScript" editBeforeRun="true" singleton="false">
-    <script-file value="$PROJECT_DIR$/HospitalManagement_Creation.sq.sql" />
-    <script-mode>FILE</script-mode>
-    <method v="2" />
-  </configuration>
-</component>
