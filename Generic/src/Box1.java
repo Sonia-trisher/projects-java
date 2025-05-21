@@ -7,6 +7,7 @@ public class Box1<T> {
         }
 
         public T getObject() {
+
             return Object;
         }
 
