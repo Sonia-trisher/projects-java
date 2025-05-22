@@ -11,7 +11,12 @@ public class students {
         this.date_of_birth = date_of_birth;
     }
 
+    public static void read(int studentId) {
+
+    }
+
     public void setFirst_name(String first_name) {
+
         this.first_name = first_name;
     }
 
@@ -41,6 +46,15 @@ public class students {
 
     public String getDate_of_birth() {
         return date_of_birth;
+    }
+    @Override
+    public String toString() {
+        return "Student{" +
+                "first_name='" + first_name + '\'' +
+                ", last_name='" + last_name + '\'' +
+                ", email='" + email + '\'' +
+                ", birth_date='" + date_of_birth + '\'' +
+                '}';
     }
 
 
