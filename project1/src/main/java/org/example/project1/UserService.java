@@ -23,7 +23,7 @@ public class UserService {
         var user = userRepository.findById(id).orElseThrow(() -> new RuntimeException("User not found"));
         userRepository.delete(user);
     }
-    public User updateUser(Long id, User upDateUser) {
+    public  User updateUser(Long id, User upDateUser) {
         var user = userRepository.findById(id).orElseThrow(() -> new RuntimeException("User not found"));
         user.setFirstName(upDateUser.getFirstName());
         user.setLastName(upDateUser.getLastName());
